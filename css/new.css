@@ -720,10 +720,12 @@ h1, h3, h4 {
 
 .contact-area {
     height:680px;
-    max-height: 680px;
-    background: url(../images/bg.png)!important;
+    max-height: 780px;
+    background: url(../images/bg.png);
     transform: translateY(-22px);
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .table-area .green-btn {
     width: 238px;
